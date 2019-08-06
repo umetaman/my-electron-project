@@ -1,0 +1,25 @@
+{
+  "name": "my-electron-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "build-win": "node ./src/build/build-win.js",
+    "build-mac": "node ./src/build/build-mac.js",
+    "build-app": "node ./src/build/build.js"
+  },
+  "author": "umetaman",
+  "license": "ISC",
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/node": "^12.6.9",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "electron": "^6.0.0",
+    "electron-builder": "^21.2.0"
+  },
+  "description": ""
+}
