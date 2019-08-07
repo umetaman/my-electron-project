@@ -60,7 +60,7 @@ tsconfig.jsonを次のように編集する。
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
-		"outDir": "./src",
+		"outDir": "./src/js",
 		"rootDir": "./src/ts",
 		"strict": true,
 		"esModuleInterop": true
